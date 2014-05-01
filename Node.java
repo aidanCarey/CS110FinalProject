@@ -1,24 +1,24 @@
 public class Node 
 {
-  private Node item;
+  private Card item;
   private Node next;
 
-  public Node(Node newItem) {
+  public Node(Card newItem) {
     item = newItem;
     next = null;
   } // end constructor
 
-  public Node(Node newItem, Node nextNode) {
+  public Node(Card newItem, Node nextNode) {
     item = newItem;
     next = nextNode;
   } // end constructor
 
-  public void setItem(Node newItem)
+  public void setItem(Card newItem)
   {
     item = newItem;
   } // end setItem
 
-  public Node getItem()
+  public Card getItem()
   {
     return item;
   } // end getItem
